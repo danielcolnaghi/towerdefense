@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<!-- <link rel="shortcut icon" type="image/png" href="icon16.png" /> -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0, width=device-width">
+
+	<style>
+		#assets {
+			height: 1px;
+			overflow: hidden;
+			visibility: hidden;
+			width: 1px;
+		}
+
+		body {
+			background-color: Black;
+			margin: 0;
+			overflow: hidden;
+			padding: 0;
+		}
+
+		canvas {
+			cursor: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<canvas width="1280" height="720"></canvas>
+	</div>
+
+	<div id="assets">
+		<img id="turretSimple1" src="turrets/turretSimple1.png" width="64" height="64">
+		<img id="playerBase" src="buildings/playerBase.png" width="256" height="256">
+		<img id="iron" src="resources/iron.png" width="32" height="32">
+		<img id="grass" src="tiles/grass.png" width="1280" height="720">
+
+		<img id="enemy1" src="enemies/enemy1.png" width="64" height="64">
+
+		<img id="bullet1" src="bullets/bullet1.png" width="16" height="16">
+
+		<img id="car1" src="player/car1.png" width="64" height="64">
+		<img id="car2" src="player/car2.png" width="64" height="64">
+		<img id="car3" src="player/car3.png" width="64" height="64">
+		<img id="car4" src="player/car4.png" width="64" height="64">
+		<img id="car5" src="player/car5.png" width="64" height="64">
+		<img id="car6" src="player/car6.png" width="64" height="64">
+		<img id="car7" src="player/car7.png" width="64" height="64">
+		<img id="car8" src="player/car8.png" width="64" height="64">
+
+		<!-- <audio id="sound0" src="sounds/sound0.ogg"></audio> -->
+		<!-- <audio id="theme0" src="themes/theme0.ogg" loop></audio> -->
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/gh/diogoeichert/videogame@1.6.2/videogame.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/diogoeichert/videogame-plugin@1.0.3/src/controllable.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/diogoeichert/videogame-plugin@1.0.3/src/starfield.js"></script>
+	<script src="importFile.js"></script>
+	<script src="player.js"></script>
+	<script src="enemy.js"></script>
+	<script src="turret.js"></script>
+	<script src="ironResource.js"></script>
+	<script src="gameScene.js"></script>
+	<script src="titleScene.js"></script>
+	<script src="index.js"></script>
+	
+</body>
+
+</html>
